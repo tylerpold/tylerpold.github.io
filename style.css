@@ -17,7 +17,15 @@ hr {
     background-color: rgb(138, 136, 136); /* color of the line */
     width: 100%;           /* full width */
 }
-WhaleV_img {
-   scale: 20%;
-    align-items: center;
+.WhaleV_img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: 0;
+    border: 2px solid rgb(138, 136, 136);
+}
+.image_txt {
+    display: flex;
+    gap: 20px;
+    max-width: 600px;
 }
