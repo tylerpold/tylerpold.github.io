@@ -1,10 +1,18 @@
 .title {
-    color: whitesmoke;
+    color: white;
     text-align: center;
     font-size: 50;
-    font
 }
 body {
     background-color: #1e1e1e; /* dark gray */
     color: white; /* text color so it’s readable */
+}
+.p1 {
+    font-size: 35;
+    font-family: 'Times New Roman', Times, serif;
+}
+.line {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(117, 239, 117);
 }
