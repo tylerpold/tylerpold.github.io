@@ -11,8 +11,9 @@ body {
     font-size: 35;
     font-family: 'Times New Roman', Times, serif;
 }
-.line {
-    width: 200px;
-    height: 100px;
-    background-color: rgb(117, 239, 117);
+hr {
+    border: none;          /* remove default border */
+    height: 2px;           /* thickness */
+    background-color: rgb(138, 136, 136); /* color of the line */
+    width: 100%;           /* full width */
 }
