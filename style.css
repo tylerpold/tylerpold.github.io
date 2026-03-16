@@ -3,6 +3,11 @@
     text-align: center;
     font-size: 50;
 }
+.subtitle {
+    color: white;
+    text-align: center;
+    font-size: 25;
+}
 body {
     background-color: #1e1e1e; /* dark gray */
     color: white; /* text color so it’s readable */
@@ -70,4 +75,14 @@ rect {
     align-items: center;
     height: 600px;
     justify-content: center;
+}
+nav {
+    text-align: center;
+}
+.Tylerpng {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: 0;
+    border: 2px solid rgb(138, 136, 136);
 }
