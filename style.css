@@ -12,10 +12,18 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 hr {
-    border: none;          /* remove default border */
-    height: 2px;           /* thickness */
-    background-color: rgb(138, 136, 136); /* color of the line */
-    width: 100%;           /* full width */
+    border: none;
+    height: 2px;
+    background-color: rgb(138, 136, 136);
+    width: 100%;
+}
+rect {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(138, 136, 136);
+    border-radius: 12px;
 }
 .WhaleV_img {
     width: 300px;
@@ -28,4 +36,32 @@ hr {
     display: flex;
     gap: 20px;
     max-width: 600px;
+    word-spacing: 2;
+    line-height: 1.5;
+    background-color: rgb(40,40,40);
+    padding: 30px;
+    border-radius: 12px;
+}
+.txt1 {
+    word-spacing: 2;
+    line-height: 1.5;
+    text-align: center;
+}
+.image_txt2 {
+    display: flex;
+    gap: 20px;
+    max-width: 600px;
+    word-spacing: 2;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: auto;
+    background-color: rgb(40,40,40);
+    padding: 30px;
+    border-radius: 12px;
+}
+.CAD1 {
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(187, 187, 187);
+    margin-left: auto;
 }
