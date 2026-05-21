@@ -37,6 +37,22 @@ rect {
     margin-left: 0;
     border: 2px solid rgb(138, 136, 136);
 }
+.Whale3_img {
+    height: 198px;
+    width: 337px;
+    display: block;
+    margin-left: 0;
+    border: 2px solid rgb(138, 136, 136);
+}
+.Whale3_man {
+    height: 291px;
+    width: 331px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid rgb(138, 136, 136);
+    background-color:white
+}
 .image_txt {
     display: flex;
     gap: 20px;
